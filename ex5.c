@@ -4,9 +4,9 @@
 
 struct date
 {
-    __uint16_t annee;
-    __uint8_t mois;
-    __uint8_t jour;
+    int annee;
+    int mois;
+    int jour;
 }typedef date;
 
 date newDate(int jour,int mois, int annee)
