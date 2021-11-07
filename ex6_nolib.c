@@ -11,7 +11,6 @@ int stringlenght(char *input)
 }
 int main()
 {
-    int condition = 0;
     char *verb=(char *)malloc(50);
     do
     {
