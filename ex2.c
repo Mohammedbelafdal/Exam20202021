@@ -12,7 +12,7 @@ int main(int argc, char **argv)
     scanf("%f", &noteMath);
     printf("\nSaisir la moyenne d'Matlab :");
     scanf("%f", &noteMatLab);
-    float moyenne = (noteMatLab + noteInfo + noteMath) / 3;//NOTE: il faut multiplie par chaque coefficient
+    float moyenne = (noteMatLab + noteInfo*3 + noteMath*5) / 9;//NOTE: il faut multiplie par chaque coefficient
     printf("Moyenne calculé:%f\n", moyenne);
     if ((noteInfo < 9) | (noteMath < 9) | (noteMatLab < 9) | (moyenne<10))
     {
